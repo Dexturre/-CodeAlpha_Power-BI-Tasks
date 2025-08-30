@@ -1,0 +1,61 @@
+Period,Category,Account,Budget,Forecast,Actual,Type
+2023-01,Revenue,Sales Revenue,48000,50000,50000,Income
+2023-01,COGS,Cost of Goods Sold,26000,25000,25000,Expense
+2023-01,Operating Expenses,Salaries,12500,12000,12000,Expense
+2023-01,Operating Expenses,Rent,5000,5000,5000,Expense
+2023-01,Operating Expenses,Utilities,1800,2000,2000,Expense
+2023-02,Revenue,Sales Revenue,52000,55000,55000,Income
+2023-02,COGS,Cost of Goods Sold,28000,27000,27000,Expense
+2023-02,Operating Expenses,Salaries,13000,12500,12500,Expense
+2023-02,Operating Expenses,Rent,5000,5000,5000,Expense
+2023-02,Operating Expenses,Utilities,1900,2100,2100,Expense
+2023-03,Revenue,Sales Revenue,56000,60000,60000,Income
+2023-03,COGS,Cost of Goods Sold,30000,29000,29000,Expense
+2023-03,Operating Expenses,Salaries,13500,13000,13000,Expense
+2023-03,Operating Expenses,Rent,5000,5000,5000,Expense
+2023-03,Operating Expenses,Utilities,2000,2200,2200,Expense
+2023-04,Revenue,Sales Revenue,60000,65000,65000,Income
+2023-04,COGS,Cost of Goods Sold,32000,31000,31000,Expense
+2023-04,Operating Expenses,Salaries,14000,13500,13500,Expense
+2023-04,Operating Expenses,Rent,5000,5000,5000,Expense
+2023-04,Operating Expenses,Utilities,2100,2300,2300,Expense
+2023-05,Revenue,Sales Revenue,65000,70000,70000,Income
+2023-05,COGS,Cost of Goods Sold,34000,33000,33000,Expense
+2023-05,Operating Expenses,Salaries,14500,14000,14000,Expense
+2023-05,Operating Expenses,Rent,5000,5000,5000,Expense
+2023-05,Operating Expenses,Utilities,2200,2400,2400,Expense
+2023-06,Revenue,Sales Revenue,70000,75000,,Income
+2023-06,COGS,Cost of Goods Sold,36000,35000,,Expense
+2023-06,Operating Expenses,Salaries,15000,14500,,Expense
+2023-06,Operating Expenses,Rent,5000,5000,,Expense
+2023-06,Operating Expenses,Utilities,2300,2500,,Expense
+2023-07,Revenue,Sales Revenue,75000,80000,,Income
+2023-07,COGS,Cost of Goods Sold,38000,37000,,Expense
+2023-07,Operating Expenses,Salaries,15500,15000,,Expense
+2023-07,Operating Expenses,Rent,5000,5000,,Expense
+2023-07,Operating Expenses,Utilities,2400,2600,,Expense
+2023-08,Revenue,Sales Revenue,80000,85000,,Income
+2023-08,COGS,Cost of Goods Sold,40000,39000,,Expense
+2023-08,Operating Expenses,Salaries,16000,15500,,Expense
+2023-08,Operating Expenses,Rent,5000,5000,,Expense
+2023-08,Operating Expenses,Utilities,2500,2700,,Expense
+2023-09,Revenue,Sales Revenue,85000,90000,,Income
+2023-09,COGS,Cost of Goods Sold,42000,41000,,Expense
+2023-09,Operating Expenses,Salaries,16500,16000,,Expense
+2023-09,Operating Expenses,Rent,5000,5000,,Expense
+2023-09,Operating Expenses,Utilities,2600,2800,,Expense
+2023-10,Revenue,Sales Revenue,90000,95000,,Income
+2023-10,COGS,Cost of Goods Sold,44000,43000,,Expense
+2023-10,Operating Expenses,Salaries,17000,16500,,Expense
+2023-10,Operating Expenses,Rent,5000,5000,,Expense
+2023-10,Operating Expenses,Utilities,2700,2900,,Expense
+2023-11,Revenue,Sales Revenue,95000,100000,,Income
+2023-11,COGS,Cost of Goods Sold,46000,45000,,Expense
+2023-11,Operating Expenses,Salaries,17500,17000,,Expense
+2023-11,Operating Expenses,Rent,5000,5000,,Expense
+2023-11,Operating Expenses,Utilities,2800,3000,,Expense
+2023-12,Revenue,Sales Revenue,100000,105000,,Income
+2023-12,COGS,Cost of Goods Sold,48000,47000,,Expense
+2023-12,Operating Expenses,Salaries,18000,17500,,Expense
+2023-12,Operating Expenses,Rent,5000,5000,,Expense
+2023-12,Operating Expenses,Utilities,2900,3100,,Expense

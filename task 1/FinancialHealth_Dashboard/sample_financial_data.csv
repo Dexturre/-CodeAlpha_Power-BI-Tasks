@@ -1,0 +1,56 @@
+Date,Category,Account,Amount,Type
+2023-01-01,Revenue,Sales Revenue,50000,Income
+2023-01-01,COGS,Cost of Goods Sold,25000,Expense
+2023-01-01,Operating Expenses,Salaries,12000,Expense
+2023-01-01,Operating Expenses,Rent,5000,Expense
+2023-01-01,Operating Expenses,Utilities,2000,Expense
+2023-01-01,Assets,Cash,30000,Asset
+2023-01-01,Assets,Accounts Receivable,15000,Asset
+2023-01-01,Assets,Inventory,20000,Asset
+2023-01-01,Liabilities,Accounts Payable,10000,Liability
+2023-01-01,Liabilities,Loans,25000,Liability
+2023-01-01,Equity,Owner's Equity,30000,Equity
+2023-02-01,Revenue,Sales Revenue,55000,Income
+2023-02-01,COGS,Cost of Goods Sold,27000,Expense
+2023-02-01,Operating Expenses,Salaries,12500,Expense
+2023-02-01,Operating Expenses,Rent,5000,Expense
+2023-02-01,Operating Expenses,Utilities,2100,Expense
+2023-02-01,Assets,Cash,32000,Asset
+2023-02-01,Assets,Accounts Receivable,16000,Asset
+2023-02-01,Assets,Inventory,21000,Asset
+2023-02-01,Liabilities,Accounts Payable,11000,Liability
+2023-02-01,Liabilities,Loans,24000,Liability
+2023-02-01,Equity,Owner's Equity,34000,Equity
+2023-03-01,Revenue,Sales Revenue,60000,Income
+2023-03-01,COGS,Cost of Goods Sold,29000,Expense
+2023-03-01,Operating Expenses,Salaries,13000,Expense
+2023-03-01,Operating Expenses,Rent,5000,Expense
+2023-03-01,Operating Expenses,Utilities,2200,Expense
+2023-03-01,Assets,Cash,35000,Asset
+2023-03-01,Assets,Accounts Receivable,17000,Asset
+2023-03-01,Assets,Inventory,22000,Asset
+2023-03-01,Liabilities,Accounts Payable,12000,Liability
+2023-03-01,Liabilities,Loans,23000,Liability
+2023-03-01,Equity,Owner's Equity,38000,Equity
+2023-04-01,Revenue,Sales Revenue,65000,Income
+2023-04-01,COGS,Cost of Goods Sold,31000,Expense
+2023-04-01,Operating Expenses,Salaries,13500,Expense
+2023-04-01,Operating Expenses,Rent,5000,Expense
+2023-04-01,Operating Expenses,Utilities,2300,Expense
+2023-04-01,Assets,Cash,38000,Asset
+2023-04-01,Assets,Accounts Receivable,18000,Asset
+2023-04-01,Assets,Inventory,23000,Asset
+2023-04-01,Liabilities,Accounts Payable,13000,Liability
+2023-04-01,Liabilities,Loans,22000,Liability
+2023-04-01,Equity,Owner's Equity,42000,Equity
+2023-05-01,Revenue,Sales Revenue,70000,Income
+2023-05-01,COGS,Cost of Goods Sold,33000,Expense
+2023-05-01,Operating Expenses,Salaries,14000,Expense
+2023-05-01,Operating Expenses,Rent,5000,Expense
+2023-05-01,Operating Expenses,Utilities,2400,Expense
+2023-05-01,Assets,Cash,41000,Asset
+2023-05-01,Assets,Accounts Receivable,19000,Asset
+2023-05-01,Assets,Inventory,24000,Asset
+2023-05-01,Liabilities,Accounts Payable,14000,Liability
+2023-05-01,Liabilities,Loans,21000,Liability
+2023-05-01,Equity,Owner's Equity,46000,Equity

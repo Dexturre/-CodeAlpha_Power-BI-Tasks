@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PowerBIDesktop>
+  <Version>2.123.982.0</Version>
+  <DataModel>
+    <FormatVersion>1.2</FormatVersion>
+    <Tables>
+      <Table Name="FinancialData">
+        <Partitions>
+          <Partition Name="FinancialData">
+            <Source>
+              <Provider>Microsoft.Mashup.OleDb.1</Provider>
+              <ConnectionString>Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=FinancialData;Extended Properties=""</ConnectionString>
+              <Query>select * from [FinancialData]</Query>
+            </Source>
+          </Partition>
+        </Partitions>
+        <Columns>
+          <Column Name="Date" DataType="DateTime" />
+          <Column Name="Category" DataType="String" />
+          <Column Name="Account" DataType="String" />
+          <Column Name="Amount" DataType="Int64" />
+          <Column Name="Type" DataType="String" />
+        </Columns>
+        <Measures>
+          <Measure Name="Total Revenue" Expression="CALCULATE(SUM(FinancialData[Amount]), FinancialData[Type] = "Income")" FormatString="$#,##0" />
+          <Measure Name="Total Expenses" Expression="CALCULATE(SUM(FinancialData[Amount]), FinancialData[Type] = "Expense")" FormatString="$#,##0" />
+          <Measure Name="Net Profit" Expression=[Total Revenue] - [Total Expenses]" FormatString="$#,##0" />
+          <Measure Name="Profit Margin" Expression="DIVIDE([Net Profit], [Total Revenue], 0)" FormatString="0.00%" />
+          <Measure Name="Total Assets" Expression="CALCULATE(SUM(FinancialData[Amount]), FinancialData[Type] = "Asset")" FormatString="$#,##0" />
+          <Measure Name="Total Liabilities" Expression="CALCULATE(SUM(FinancialData[Amount]), FinancialData[Type] = "Liability")" FormatString="$#,##0" />
+          <Measure Name="Total Equity" Expression="CALCULATE(SUM(FinancialData[Amount]), FinancialData[Type] = "Equity")" FormatString="$#,##0" />
+          <Measure Name="Current Ratio" Expression="DIVIDE([Total Assets], [Total Liabilities], 0)" FormatString="0.00" />
+          <Measure Name="Debt to Equity" Expression="DIVIDE([Total Liabilities], [Total Equity], 0)" FormatString="0.00" />
+        </Measures>
+      </Table>
+    </Tables>
+    <Relationships>
+      <Relationship Name="FinancialData_Date" FromTable="FinancialData" FromColumn="Date" ToTable="DateTable" ToColumn="Date" CrossFilteringBehavior="BothDirections" />
+    </Relationships>
+  </DataModel>
+  <Layout>
+    <Sections>
+      <Section Name="Financial Overview">
+        <VisualContainers>
+          <VisualContainer>
+            <Visual Type="card">
+              <Properties>
+                <Property Name="Values">
+                  <Value>
+                    <SingleVisual>
+                      <VisualType>card</VisualType>
+                      <DataRoles>
+                        <DataRole>
+                          <Role>Values</Role>
+                          <Kind>Measure</Kind>
+                          <Name>Total Revenue</Name>
+                        </DataRole>
+                      </DataRoles>
+                    </SingleVisual>
+                  </Value>
+                </Property>
+              </Properties>
+            </Visual>
+          </VisualContainer>
+          <VisualContainer>
+            <Visual Type="card">
+              <Properties>
+                <Property Name="Values">
+                  <Value>
+                    <SingleVisual>
+                      <VisualType>card</VisualType>
+                      <DataRoles>
+                        <DataRole>
+                          <Role>Values</Role>
+                          <Kind>Measure</Kind>
+                          <Name>Net Profit</Name>
+                        </DataRole>
+                      </DataRoles>
+                    </SingleVisual>
+                  </Value>
+                </Property>
+              </Properties>
+            </Visual>
+          </VisualContainer>
+          <VisualContainer>
+            <Visual Type="card">
+              <Properties>
+                <Property Name="Values">
+                  <Value>
+                    <SingleVisual>
+                      <VisualType>card</VisualType>
+                      <DataRoles>
+                        <DataRole>
+                          <Role>Values</Role>
+                          <Kind>Measure</Kind>
+                          <Name>Profit Margin</Name>
+                        </DataRole>
+                      </DataRoles>
+                    </SingleVisual>
+                  </Value>
+                </Property>
+              </Properties>
+            </Visual>
+          </VisualContainer>
+        </VisualContainers>
+      </Section>
+    </Sections>
+  </Layout>
+</PowerBIDesktop>
